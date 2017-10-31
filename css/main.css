@@ -5,6 +5,13 @@ body{
 .text-uppercase{
     text-transform: uppercase;
 }
+.third__section{
+    outline: 1px solid black;
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
 footer{
     height: 500px;
     width: 100%;
@@ -45,18 +52,18 @@ footer{
     color: #ff00bf;
 }
 /* footer download images */
-.footer__icons{
-    display: inline-block;
+.footer__section .footer__icons div{
+    position: relative;
+}
+.footer__icons {
     position: absolute;
-    top: 260%;
-    margin-right: 0;
-    right: 300px;
+    bottom: 0px;
 }
 .footer__icons ul li{
     list-style: none;
 }
 .footer__icons ul li img{
-    height: 50px;
+    height:50px;
     width: 150px;
 }
 footer hr{

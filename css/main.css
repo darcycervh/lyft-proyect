@@ -82,3 +82,23 @@ header {
     margin-left: 5px;
     vertical-align: middle;
 }
+
+/*Caja padre Article*/
+
+article {
+	height: 420px;
+}
+
+.big-logo {
+	outline: 2px solid pink;
+	display: inline-block;
+	height: 100%;
+	width: 60%;
+}
+
+.info {
+	outline: 2px solid green;
+	display: inline-block;
+	height: 100%;
+	width: 35%;
+}	

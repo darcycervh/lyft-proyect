@@ -100,3 +100,107 @@ footer hr{
 .footer__list i{
     color: #fff;
 }
+* {
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+/*poniendo características a la caja padre header*/
+header {
+	background-color: #000;
+	height: 115px;
+	/*padding-top: 24px;*/
+}
+
+/*características del logo*/
+.logo {
+	/*outline: 1px solid white;*/
+	display: inline-block;
+	height: 77px;
+	padding-left: 78px;
+	/*margin-top: 20px;*/
+	transform: translatey(25%);
+	width: 60%;
+}
+
+/*logo*/
+.logo img {
+	/*outline: 1px solid red;*/
+	color: #fff;
+	height: 45px;
+	transform: translateY(35%);
+	width: 64px;
+}
+
+/*caja que almacena menú*/
+.menu {
+	/*outline: 1px solid red;*/
+	display: inline-block;
+	float:right;
+	height: 77px;
+	text-align: end;
+	transform: translateY(25%);
+	margin: auto;
+	width: 40%;
+}
+
+/*subcaja que contiene menú, ubicando a la lista*/
+.menu ul{
+	/*outline: 1px dotted pink;*/
+	display: inline-block;
+	color: #fff;
+	font-size: 1.125rem;
+	font-weight: 300;
+	height: 45px;
+	transform: -moz translateY(35%);
+	transform: -ms translateY(35%);
+	transform: -webkit translateY(35%);
+	transform: translateY(35%);
+}
+
+/*Cada uno de los elementos del menú*/
+.menu li {
+	display: inline-block;
+	/*margin-right: 46px;*/
+	/*transform: translateY(-26%);*/
+	padding: 12px 20px;
+}
+
+/*Selecciono sólo al último elemento de listado de menú*/
+.menu li:last-child {
+	border: 1px solid #fff;
+	border-radius: 8px;
+	margin-right: 158px;
+}
+
+/*ubicando el segundo elemento del listado de menú*/
+.menu li:nth-child(2)::after {
+	content: "\f107";
+	color: #fff;
+	font-family: 'FontAwesome';
+    font-size: 24px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/*Caja padre Article*/
+
+article {
+	height: 420px;
+}
+
+.big-logo {
+	outline: 2px solid pink;
+	display: inline-block;
+	height: 100%;
+	width: 60%;
+}
+
+.info {
+	outline: 2px solid green;
+	display: inline-block;
+	height: 100%;
+	width: 35%;
+}

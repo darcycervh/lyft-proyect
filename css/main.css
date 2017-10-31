@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #333447;
+}
+/* footer section */
+.footer__section{
+    height: auto;
+    position: relative;
+    top: 40px;
+    left: 90px;
+    width: 60%;
+}
+/*footer blocks of texts*/
+.footer__section div{
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    color: #fff;
+    text-align: left;
+}
+.footer__section h3{
+    font-size: 16px;
+}
+.footer__section ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer__section ul li{
+    margin-bottom: 1.5rem;
+}
+.footer__section a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer__section a:hover{
+    text-decoration: underline;
+    color: #ff00bf;
+}
+/* footer download images */
+.footer__icons{
+    display: inline-block;
+    position: absolute;
+    top: 260%;
+    margin-right: 0;
+    right: 300px;
+}
+.footer__icons ul li{
+    list-style: none;
+}
+.footer__icons ul li img{
+    height: 50px;
+    width: 150px;
+}
+footer hr{
+    width: 60%;
+    margin: auto;
+    border: 0.6px solid silver;
+}
+.footer__copyrigth{
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 40%;
+}
+/* list of icons*/
+.footer__list{
+    position: absolute;
+}
+.footer__list ul{
+    padding: 0;
+    margin: 0;
+}
+.footer__list ul li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    padding: 6px 11px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    left: 570px;
+    margin-right: 10px;
+}
+.footer__list i{
+    color: #fff;
+}

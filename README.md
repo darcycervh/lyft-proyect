@@ -9,4 +9,4 @@
 
 **Meta:**
 
-![página de Lyft](../assets/docs/fullpage.png)
+![página de Lyft](assets/docs/fullpage.png)

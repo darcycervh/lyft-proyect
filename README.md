@@ -7,5 +7,6 @@
 **Herramientas utilizadas**
 * HTML y CSS.
 
+**Meta:**
 
 ![página de Lyft](../assets/docs/fullpage.png)

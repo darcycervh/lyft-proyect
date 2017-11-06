@@ -129,6 +129,7 @@ header {
 	top: 0;
 	right: 0;
 }	
+<<<<<<< HEAD
 .info h1{
 	font-size: 3rem;
 	color: #352384;
@@ -199,6 +200,10 @@ header {
 	width: 50%;
 }
 /*footer*/
+=======
+
+
+>>>>>>> c9a9e61346cf2eaf770bc4aa3b8876f19653fcc5
 footer{
     height: 500px;
     width: 100%;
